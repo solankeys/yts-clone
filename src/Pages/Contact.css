@@ -1,0 +1,53 @@
+.contact-page{
+
+    background-image:
+    linear-gradient(to bottom right, 
+    rgba(29, 29, 29, 0.9) ,
+    rgba(29, 29, 29, 1)), url(../images/bckimg.PNG);
+}
+.contact-form{
+    margin: 1rem 1rem 0 5rem;
+    /* float: left; */
+}
+.contact-container h2{
+
+    color: #6ac045;
+    font-size: 1.7em;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    margin: 10px 0 35px 80px;
+}
+.contact-form label{
+    color: #969696;
+}
+
+.contact-form input{
+    width: 40% !important;
+    padding: 12px 20px;
+    margin-bottom: 0.7rem;
+    display: inline-block;
+    border: 1px solid #282828;
+    border-radius: 4px ;
+    box-sizing: border-box;
+    color:#a2a2a2;
+    background: #282828;
+}
+.textarea{
+    height: 30vh;
+}
+.contact-paragraph{
+    display: inline-block;
+    width: 40%;
+    text-align:start;
+    position: fixed;
+    top: 10rem;
+    right: 5rem;
+   /* color: #969696;
+   font-size: .95em */
+}
+.contact-paragraph p{
+    color: #969696;
+}
+.second-paragraph{
+    margin-top: 6rem;
+}

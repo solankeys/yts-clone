@@ -1,0 +1,64 @@
+.register-page{
+    background-image:
+    linear-gradient(to right bottom,
+        rgba(29,29,29,0.9),
+        rgba(29,29,29,1)),
+    url(../images/bckimg.PNG);
+}
+.register-form{
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form input{
+    width: 100% !important;
+    padding: 12px 20px;
+    margin-bottom: 0.7rem;
+    display: block;
+    border: 1px solid #282828;
+    border-radius: 4px ;
+    box-sizing: border-box;
+    color:#a2a2a2;
+    background: #282828;
+}
+.register-page h2{
+    color: #6ac045;
+    font-size: 1.7em;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    /* margin: 10px 0 35px 80px; */
+    margin: 3rem 0 3rem 5rem ;
+    font-size: 1.7em;
+    font-weight: normal;
+    font-family: 'Arimo', sans-serif;
+}
+.user-email,.psw-cpsw {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 48vw; */
+}
+.user-email label, .psw-cpsw label{
+    font-size: 1em;
+    color:#969696;
+    font-weight: bold;
+    font-family:'Arimo', sans-serif  ;
+    width: 40vw;
+}
+.register-page button{
+    width: 90px; 
+    padding: 7px ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #6ac045;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 1rem;
+}
+/* .register-page > div{
+    width: 100%;
+    background: green;
+} */

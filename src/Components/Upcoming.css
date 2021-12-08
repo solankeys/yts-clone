@@ -1,0 +1,26 @@
+.upcoming-page{
+    padding-bottom: 2rem;
+    background:rgba(29, 29, 29,1);
+}
+
+.upcoming-content h4{
+    color: seashell;
+    padding: 1rem 1rem 2rem 1rem;
+}
+.movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.movie-card{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 200px;
+    height: 300px;
+    border:  5px #fff solid;
+    margin: auto;
+}
+.movie-card img{
+    width: 200px;
+    height: 300px;
+}

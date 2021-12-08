@@ -1,0 +1,54 @@
+.Homepages{
+    text-align: center;
+}
+ .topsection{
+    background-image:  
+    linear-gradient(to bottom right, 
+    rgba(29, 29, 29, 0.9) ,
+    rgba(29, 29, 29, 1)),
+    /* rgba(29, 29, 29, 0.5), */
+    url(../images/bckimg.PNG);
+    background-size: 100vw 200vh;
+    background-repeat: no-repeat;
+    padding: 1rem;
+} 
+.hph1{
+    margin-bottom: 5rems;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    clear: both;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 2.45em;
+
+}
+.hppg{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 45%;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    font-family: open sans, sans-serif;
+    font-size: 0.80em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    color: #ccc;
+}
+.hph4 {
+    text-align: center;
+    
+}
+.hph4 a{
+    font-family:open sans, sans-serif ;
+    font-size:0.85em ;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #428bca;
+    text-decoration: none;
+    line-height: 21px;
+}

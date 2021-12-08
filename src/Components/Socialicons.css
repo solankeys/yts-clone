@@ -1,0 +1,47 @@
+.socialicons{
+    position: fixed;
+    transition: width 1s;
+     right:0px;
+}
+.socialicons a{
+    color: #fff;
+    display: block;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    /* width: 2px; */
+    margin-bottom: 2px;
+    z-index: 1;
+    
+}
+.socialicons a:hover{
+    transform: scaleX(1.2);
+    height: 3rem;
+    /* width: 3rem; */
+    overflow: hidden;
+}
+.fa-twitter{
+    background-color: #1DA1F2;
+    width: 2.5rem;
+    height: 2rem;
+    padding: 15px 5px 5px 5px;
+}
+.fa-reddit{
+    background-color: #FFA500;
+    width: 2.5rem;
+    height: 2rem;
+    padding: 15px 5px 5px 5px;
+}
+.fa-th{
+    background-color: #4267B2;
+    width: 2.5rem;
+    height: 2rem;
+    padding: 15px 5px 5px 5px;
+}
+.fa-pinterest{
+    background-color: #c8232c;
+    width: 2.5rem;
+    height: 2rem;
+    padding: 15px 5px 5px 5px;
+}
